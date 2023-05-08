@@ -21,12 +21,12 @@ To get started with the project, follow these steps:
 2. Open the project in your favorite IDE.
 
 3. Update the MongoDB connection details in the `application.yml` file:
- ```
-  spring:
-    data:
-      mongodb:
-        uri: 'mongodb://localhost:27017/mydatabase'
-        database: mydatabase
+   ```
+     spring:
+       data:
+         mongodb:
+           uri: 'mongodb://localhost:27017/mydatabase'
+           database: mydatabase
    ```
 
 4. Build the project using the build tool of your choice (e.g., Maven, Gradle).
