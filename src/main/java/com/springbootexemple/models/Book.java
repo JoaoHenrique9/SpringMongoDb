@@ -13,17 +13,17 @@ import lombok.Data;
 @Data
 public class Book {
     @Id
-    public String id;
+    private String id;
 
     @JsonProperty("name")
-    public String name;
+    private String name;
 
     @JsonProperty("price")
-    public BigDecimal price;
+    private BigDecimal price;
 
     @JsonProperty("category")
-    public String category;
+    private String category;
 
     @JsonProperty("author")
-    public String author;
+    private String author;
 }
